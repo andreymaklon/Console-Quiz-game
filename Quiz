@@ -286,6 +286,7 @@ def game():
                     i = 0
                     sleep(1.5)
                     break
+                    
 while True:
     print()
     # Calls the game function to start the game
