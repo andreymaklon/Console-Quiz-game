@@ -15,7 +15,6 @@ def play_again():
         else:
             print('Enter Y or N!')
 
-
 temp_dictionary = {}
 questions = []
 
@@ -182,8 +181,6 @@ questions.append(temp_dictionary.copy())
 
 # Makes a copy of questions to questions_backup, for future use
 questions_backup = copy.deepcopy(questions)
-
-
 
 # Defines the game function, where the game is
 def game():
